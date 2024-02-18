@@ -1,4 +1,5 @@
-## Measuring the Discrepancy between 3D Geometric Models using Directional Distance Fields
+## Measuring the Discrepancy between 3D Geometric Models using Directional Distance Fields  
+[[Arxiv]](https://arxiv.org/abs/2401.09736)
 
 #### TODO
 
