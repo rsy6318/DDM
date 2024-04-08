@@ -37,7 +37,7 @@ loss=loss_func(src_v,src_f,tgt_v,tgt_f)
 ......
 ```
 
-###### Optimize point cloud according to the reference point cloud
+###### Optimize a triangle mesh according to the reference point cloud
 
 ```
 from Closest_Point_on_Surface import DirDist_M2P
