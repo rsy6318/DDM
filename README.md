@@ -55,7 +55,7 @@ loss=loss_func(src_v,src_f,tgt_points)
 * [ ] Release examples on the selected applications
   * [ ] Shape Deformation
   * [X] Rigid Registration
-  * [ ] Non-rigid Registration
+  * [X] Non-rigid Registration
   * [ ] Scene Flow Estimation
 
 ## Acknowledgement
