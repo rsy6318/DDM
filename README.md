@@ -57,6 +57,7 @@ loss=loss_func(src_v,src_f,tgt_points)
   * [X] Rigid Registration
   * [X] Non-rigid Registration
   * [ ] Scene Flow Estimation
+  * [ ] Human Pose Optimization
 
 ## Acknowledgement
 
