@@ -61,3 +61,13 @@ loss=loss_func(src_v,src_f,tgt_points)
 ## Acknowledgement
 
 We thank the following excellent works including MAC, AMM, NSFP, SCOOP, and MDA for their released codes.
+
+## Citation
+```bibtex
+@article{ren2024measuring,
+  title={Measuring the Discrepancy between 3D Geometric Models using Directional Distance Fields},
+  author={Ren, Siyu and Hou, Junhui and Chen, Xiaodong and Xiong, Hongkai and Wang, Wenping},
+  journal={arXiv preprint arXiv:2401.09736},
+  year={2024}
+}
+```
