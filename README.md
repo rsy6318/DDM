@@ -1,4 +1,4 @@
-## Measuring the Discrepancy between 3D Geometric Models using Directional Distance Fields
+## Measuring the Discrepancy between 3D Geometric Models using Directional Distance Fields (T-PAMI 2025)
 
 [[Arxiv]](https://arxiv.org/abs/2401.09736)
 
