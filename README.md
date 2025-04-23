@@ -1,4 +1,4 @@
-## DirDist:  A Metric for Comparing 3D Shapes Using Directional Distance Fields (T-PAMI 2025)
+## DDM:  A Metric for Comparing 3D Shapes Using Directional Distance Fields (T-PAMI 2025)
 
 [[Arxiv]](https://arxiv.org/abs/2401.09736)
 
