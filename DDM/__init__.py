@@ -80,7 +80,7 @@ def get_face_center(vertices,faces):
     return (vertices[faces[:,0]]+vertices[faces[:,1]]+vertices[faces[:,2]])/3
 
 
-class DirDist_M2M(torch.nn.Module):
+class DDM_M2M(torch.nn.Module):
     def __init__(self,num_query=20000,std=0.05):
         super().__init__()        
         self.num_query=num_query
@@ -147,7 +147,7 @@ class DirDist_M2M(torch.nn.Module):
         return torch.mean(torch.abs(geo_src-geo_tgt))*4
 
 
-class DirDist_P2P(torch.nn.Module):
+class DDM_P2P(torch.nn.Module):
     def __init__(self,up_ratio=10,K=5,std=0.05,weighted_query=True,beta=3):
         super().__init__()
         self.K=K
@@ -231,7 +231,7 @@ class DirDist_P2P(torch.nn.Module):
             return torch.sum((udf_error+udf_grad_error)*query_weights)/query.size(0)/query.size(1)
 
 
-class DirDist_M2P(torch.nn.Module):
+class DDM_M2P(torch.nn.Module):
     def __init__(self,up_ratio=3,beta=0,K=5,std=0.05):
         super().__init__()
         self.up_ratio=up_ratio

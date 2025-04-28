@@ -5,20 +5,20 @@
 ## Installation
 
 ```
-cd Closest_Point_on_Surface
+cd DDM
 python set_up.py install
 ```
 
 ## Usage
 
-Here we provide three versions of DirDist, i.e., Point-to-Point, Mesh-to-Mesh, and Mesh-to-Point (in the paper, it is face).
+Here we provide three versions of DDM, i.e., Point-to-Point, Mesh-to-Mesh, and Mesh-to-Point (in the paper, it is face).
 
 ###### Optimize a point cloud according to the reference point cloud
 
 ```
-from Closest_Point_on_Surface import DirDist_P2P
+from Closest_Point_on_Surface import DDM_P2P
 
-loss_func=DirDist_P2P()
+loss_func=DDM_P2P()
 
 ......
 loss=loss_func(src_points,tgt_points)
@@ -28,9 +28,9 @@ loss=loss_func(src_points,tgt_points)
 ###### Optimize a triangle mesh according to the reference triangle mesh
 
 ```
-from Closest_Point_on_Surface import DirDist_M2M
+from Closest_Point_on_Surface import DDM_M2M
 
-loss_func=DirDist_M2M()
+loss_func=DDM_M2M()
 
 ......
 loss=loss_func(src_v,src_f,tgt_v,tgt_f)
@@ -40,9 +40,9 @@ loss=loss_func(src_v,src_f,tgt_v,tgt_f)
 ###### Optimize a triangle mesh according to the reference point cloud
 
 ```
-from Closest_Point_on_Surface import DirDist_M2P
+from Closest_Point_on_Surface import DDM_M2P
 
-loss_func=DirDist_M2P()
+loss_func=DDM_M2P()
 
 ......
 loss=loss_func(src_v,src_f,tgt_points)
