@@ -66,7 +66,7 @@ We thank the following excellent works including MAC, AMM, NSFP, SCOOP, and MDA 
 ## Citation
 ```bibtex
 @article{ren2024measuring,
-  title={Measuring the Discrepancy between 3D Geometric Models using Directional Distance Fields},
+  title={DDM:  A Metric for Comparing 3D Shapes Using Directional Distance Fields},
   author={Ren, Siyu and Hou, Junhui and Chen, Xiaodong and Xiong, Hongkai and Wang, Wenping},
   journal={arXiv preprint arXiv:2401.09736},
   year={2024}
