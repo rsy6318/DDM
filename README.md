@@ -68,7 +68,7 @@ We thank the following excellent works including MAC, AMM, NSFP, SCOOP, and MDA 
 @article{ren2024measuring,
   title={DDM:  A Metric for Comparing 3D Shapes Using Directional Distance Fields},
   author={Ren, Siyu and Hou, Junhui and Chen, Xiaodong and Xiong, Hongkai and Wang, Wenping},
-  journal={arXiv preprint arXiv:2401.09736},
-  year={2024}
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2025}
 }
 ```
