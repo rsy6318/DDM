@@ -1,6 +1,6 @@
 ## DDM: A Metric for Comparing 3D Shapes Using Directional Distance Fields (T-PAMI 2025)
 
-[[Arxiv]](https://arxiv.org/abs/2401.09736)
+[[Arxiv]](https://arxiv.org/abs/2401.09736) [[T-PAMI]](https://ieeexplore.ieee.org/abstract/document/10964075)
 
 ## Installation
 
