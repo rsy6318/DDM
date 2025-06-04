@@ -2,6 +2,8 @@
 
 [[Arxiv]](https://arxiv.org/abs/2401.09736) [[T-PAMI]](https://ieeexplore.ieee.org/abstract/document/10964075)
 
+![image](poster.png)
+
 ## Installation
 
 ```
