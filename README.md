@@ -12,8 +12,9 @@ python set_up.py install
 ```
 
 ## Usage
+**Note: When using DDM, the setting regularization weights is also important, and it will range from 0.01 to 10000 !!!**    
+Here we provide three versions of DDM, i.e., Point-to-Point, Mesh-to-Mesh, and Mesh-to-Point (in the paper, it is face).    
 
-Here we provide three versions of DDM, i.e., Point-to-Point, Mesh-to-Mesh, and Mesh-to-Point (in the paper, it is face).
 
 ###### Optimize a point cloud according to the reference point cloud
 
